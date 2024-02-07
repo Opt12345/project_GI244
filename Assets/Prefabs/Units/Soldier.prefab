@@ -5272,6 +5272,12 @@ MonoBehaviour:
   state: 0
   faction: {fileID: 0}
   selectionVisual: {fileID: 3605213991571936848}
+  unitCost:
+    food: 50
+    wood: 10
+    gold: 20
+    stone: 0
+  unitWaitTime: 0.1
 --- !u!114 &2292582864611632273
 MonoBehaviour:
   m_ObjectHideFlags: 0
