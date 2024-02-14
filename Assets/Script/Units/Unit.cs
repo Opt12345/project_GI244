@@ -46,8 +46,8 @@ public class Unit : MonoBehaviour
     [SerializeField] private int maxWpnDamage;
     public int MaxWpnDamage { get { return maxWpnDamage; } }
 
-    [SerializeField] private int armour;
-    public int Armour { get {  return armour; } }
+    [SerializeField] private int armor;
+    public int Armour { get {  return armor; } }
 
     [SerializeField] private float visualRange;
     public float VisualRange { get { return visualRange; } }
