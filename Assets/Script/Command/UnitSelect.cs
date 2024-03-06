@@ -74,10 +74,12 @@ public class UnitSelect : MonoBehaviour
     {
         Ray ray = cam.ScreenPointToRay(screenPos);
         RaycastHit hit;
-
+        Debug.Log("Hello0");
+        
         //if we left-click something
         if (Physics.Raycast(ray, out hit, 1000, layerMask))
         {
+            Debug.Log(hit.collider.tag);
             switch (hit.collider.tag)
             {
                 case "Unit":
@@ -125,12 +127,13 @@ public class UnitSelect : MonoBehaviour
 
     private void BuildingSelect(RaycastHit hit)
     {
+        Debug.Log("Hello1");
         curBuilding = hit.collider.GetComponent<Building>();
         curBuilding.ToggleSelectionVisual(true);
-
+        Debug.Log("Hello2");
         if (GameManager.instance.MyFaction.IsMyBuilding(curBuilding))
         {
-            //Debug.Log("my building");
+            Debug.Log("my building");
             ShowBuilding(curBuilding);//Show building info
         }
     }
