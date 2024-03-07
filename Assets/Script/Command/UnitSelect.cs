@@ -74,8 +74,7 @@ public class UnitSelect : MonoBehaviour
     {
         Ray ray = cam.ScreenPointToRay(screenPos);
         RaycastHit hit;
-        Debug.Log("Hello0");
-        
+
         //if we left-click something
         if (Physics.Raycast(ray, out hit, 1000, layerMask))
         {
@@ -110,7 +109,7 @@ public class UnitSelect : MonoBehaviour
         ClearAllSelectionVisual();
         curUnit = null;
         curBuilding = null;
-        
+
         //Clear UI
         InfoManager.instance.ClearAllInfo();
     }
@@ -123,17 +122,16 @@ public class UnitSelect : MonoBehaviour
     private void ShowBuilding(Building b)
     {
         InfoManager.instance.ShowAllInfo(b);
+        ActionManager.instance.ShowCreateUnitMode(b);
     }
 
     private void BuildingSelect(RaycastHit hit)
     {
-        Debug.Log("Hello1");
         curBuilding = hit.collider.GetComponent<Building>();
         curBuilding.ToggleSelectionVisual(true);
-        Debug.Log("Hello2");
         if (GameManager.instance.MyFaction.IsMyBuilding(curBuilding))
         {
-            Debug.Log("my building");
+            //Debug.Log("my building");
             ShowBuilding(curBuilding);//Show building info
         }
     }
