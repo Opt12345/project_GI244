@@ -61,7 +61,7 @@ MonoBehaviour:
   recruitList: []
   unitTimer: 5
   curUnitProgress: 0
-  curUnitWaitTime: 0
+  curUnitWaitTime: 5
   isFunctional: 0
   isHQ: 0
   intoTheGround: 5

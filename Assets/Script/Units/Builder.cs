@@ -42,9 +42,8 @@ public class Builder : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 if (EventSystem.current.IsPointerOverGameObject())
-                {
                     return;
-                }
+                
                 CheckClickOnGround();
             }
             if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(1)) CancelToBuild();
@@ -73,9 +72,7 @@ public class Builder : MonoBehaviour
         else
         {
             //Create ghost building at the mouse position
-            ghostBuilding = Instantiate(ghostBuildingList[i],
-                Input.mousePosition,
-                Quaternion.identity, unit.Faction.GhostBuildingParent);
+            ghostBuilding = Instantiate(ghostBuildingList[i], Input.mousePosition, Quaternion.identity, unit.Faction.GhostBuildingParent);
 
             toBuild = true;
             newBuilding = buildingList[i]; //Set prefab into new building
@@ -87,8 +84,7 @@ public class Builder : MonoBehaviour
     {
         if (showGhost)
         {
-            Ray ray = CameraController.instance.Cam.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
+            Ray ray = CameraController.instance.Cam.ScreenPointToRay(Input.mousePosition); RaycastHit hit;
 
             if (Physics.Raycast(ray, out hit, 1000, LayerMask.GetMask("Ground")))
             {
@@ -108,7 +104,7 @@ public class Builder : MonoBehaviour
         newBuilding = null;
         Destroy(ghostBuilding);
         ghostBuilding = null;
-        //Debug.Log("Cancel Building");
+        Debug.Log("Cancel Building");
     }
     
     public void BuilderStartFixBuilding(GameObject target)
@@ -161,7 +157,7 @@ public class Builder : MonoBehaviour
         {
             MainUI.instance.UpdateAllResource(unit.Faction);
         }
-        //Debug.Log("Building site created.");
+        Debug.Log("Building site created.");
 
         //order builders to build together
         StartConstruction(inProgressBuilding);

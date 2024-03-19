@@ -4724,6 +4724,10 @@ PrefabInstance:
       propertyPath: faction
       value: 
       objectReference: {fileID: 2057173312}
+    - target: {fileID: 6280296638803154287, guid: 9cc3b022d439d9f4ca8b3d614af74b34, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4947,6 +4951,10 @@ PrefabInstance:
       propertyPath: unitPrefabs.Array.data[2]
       value: 
       objectReference: {fileID: 4222008327735160587, guid: 934a0e4a096bc2144a2371abb4340ca4, type: 3}
+    - target: {fileID: 4454561434390494195, guid: b6399bcb5d23ba241ad4b40a3624e9fb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6519534465287415752, guid: b6399bcb5d23ba241ad4b40a3624e9fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.62
