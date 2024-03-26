@@ -5006,6 +5006,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2057173312}
     - target: {fileID: 3337575939428169799, guid: b6399bcb5d23ba241ad4b40a3624e9fb, type: 3}
+      propertyPath: unitTimer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337575939428169799, guid: b6399bcb5d23ba241ad4b40a3624e9fb, type: 3}
       propertyPath: isFunctional
       value: 1
       objectReference: {fileID: 0}
