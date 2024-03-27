@@ -2354,6 +2354,7 @@ GameObject:
   - component: {fileID: 3260019484755918617}
   - component: {fileID: 7208693851825384952}
   - component: {fileID: 3365372421506909211}
+  - component: {fileID: 2697542458846816143}
   m_Layer: 6
   m_Name: Soldier (Red)
   m_TagString: Unit
@@ -2491,6 +2492,16 @@ MonoBehaviour:
     gold: 20
     stone: 0
   unitWaitTime: 0.1
+  isBuilder: 0
+  builder: {fileID: 0}
+  isWorker: 0
+  worker: {fileID: 0}
+  pathUpdateRate: 1
+  lastPathUpdateTime: 0
+  curEnemyUnitTarget: {fileID: 0}
+  attackRate: 1
+  lastAttackTime: 0
+  defendRange: 30
 --- !u!114 &3365372421506909211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2501,6 +2512,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62d3eb4c3e1f44c43a6d8af789674d99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2697542458846816143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4222008327735160587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a547d44ac3af274295639a0a407b953, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4264410463796065429
@@ -3718,7 +3741,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0b4aaac00d4747e409de6522be78c34f, type: 2}
+  - {fileID: 2100000, guid: 79bfdd834a23bf04d8ea380700c97ad9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

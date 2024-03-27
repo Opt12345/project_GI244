@@ -1898,7 +1898,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6399588745696449647
 Transform:
   m_ObjectHideFlags: 0
@@ -2356,6 +2356,7 @@ GameObject:
   - component: {fileID: 3365372421506909211}
   - component: {fileID: 8561681207989972818}
   - component: {fileID: 646553643741256321}
+  - component: {fileID: -1890014147495958864}
   m_Layer: 6
   m_Name: Builder
   m_TagString: Unit
@@ -2474,7 +2475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 2
-  unitName: Builder
+  unitName: Bob
   unitPic: {fileID: 21300000, guid: efd45648a0a75f649a12b415cc8f93b9, type: 3}
   curHP: 100
   maxHP: 100
@@ -2499,6 +2500,10 @@ MonoBehaviour:
   worker: {fileID: 0}
   pathUpdateRate: 1
   lastPathUpdateTime: 0
+  curEnemyUnitTarget: {fileID: 0}
+  attackRate: 1
+  lastAttackTime: 0
+  defendRange: 30
 --- !u!114 &3365372421506909211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2552,6 +2557,18 @@ MonoBehaviour:
   amountCarry: 0
   maxCarry: 25
   carryType: 0
+--- !u!114 &-1890014147495958864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4222008327735160587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a547d44ac3af274295639a0a407b953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4264410463796065429
 GameObject:
   m_ObjectHideFlags: 0
@@ -5425,7 +5442,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2407160726855812962
 Transform:
   m_ObjectHideFlags: 0
@@ -6346,7 +6363,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3430254413571283232
 Transform:
   m_ObjectHideFlags: 0
