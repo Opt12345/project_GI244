@@ -109,6 +109,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: ce19f20337e1d6545bddd9bc3ba7de65, type: 2}
     - target: {fileID: 3287462304537897352, guid: 7db4fd3f2b302c047b2edfc8171f9d3d, type: 3}
+      propertyPath: id
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3287462304537897352, guid: 7db4fd3f2b302c047b2edfc8171f9d3d, type: 3}
+      propertyPath: unitPic
+      value: 
+      objectReference: {fileID: 21300000, guid: 08376ae5d29c6d6408800f05e934e6ec, type: 3}
+    - target: {fileID: 3287462304537897352, guid: 7db4fd3f2b302c047b2edfc8171f9d3d, type: 3}
       propertyPath: unitName
       value: Seaman
       objectReference: {fileID: 0}
