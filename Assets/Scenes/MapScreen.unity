@@ -5743,7 +5743,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3337575939428169799, guid: b6399bcb5d23ba241ad4b40a3624e9fb, type: 3}
       propertyPath: unitPrefabs.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3337575939428169799, guid: b6399bcb5d23ba241ad4b40a3624e9fb, type: 3}
       propertyPath: unitPrefabs.Array.data[2]
@@ -8762,7 +8762,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 35374675230886059, guid: 0b9fe7a80590b7f49b3e1b0322490e19, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.79
       objectReference: {fileID: 0}
     - target: {fileID: 35374675230886059, guid: 0b9fe7a80590b7f49b3e1b0322490e19, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8844,6 +8844,14 @@ PrefabInstance:
       propertyPath: aliveUnits.Array.data[9]
       value: 
       objectReference: {fileID: 1389518780}
+    - target: {fileID: 8728378101237457693, guid: 0b9fe7a80590b7f49b3e1b0322490e19, type: 3}
+      propertyPath: aliveBuildings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8728378101237457693, guid: 0b9fe7a80590b7f49b3e1b0322490e19, type: 3}
+      propertyPath: aliveBuildings.Array.data[0]
+      value: 
+      objectReference: {fileID: 2109382316}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -9360,7 +9368,7 @@ PrefabInstance:
     - target: {fileID: 8728378101237457693, guid: 4e6bd0e321a01d740b083911b9915434, type: 3}
       propertyPath: aliveBuildings.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2137095559}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -9740,6 +9748,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1596745617258370934, guid: 9cc3b022d439d9f4ca8b3d614af74b34, type: 3}
   m_PrefabInstance: {fileID: 135385193}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2109382316 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3137968118933880714, guid: 9cc3b022d439d9f4ca8b3d614af74b34, type: 3}
+  m_PrefabInstance: {fileID: 135385193}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa94b370cee26c429cbaaf12272ab94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2134631431
 GameObject:
   m_ObjectHideFlags: 0
@@ -9877,6 +9896,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8728849621466787123, guid: abb366b2a02eb414a821f352ce7dd53c, type: 3}
   m_PrefabInstance: {fileID: 4568765738418626820}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2137095559 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1036418958753531808, guid: abb366b2a02eb414a821f352ce7dd53c, type: 3}
+  m_PrefabInstance: {fileID: 4568765738418626820}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efa6ebf1eaa20f943b83428a8beeae08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4568765738418626820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9893,6 +9923,10 @@ PrefabInstance:
       propertyPath: faction
       value: 
       objectReference: {fileID: 2057173312}
+    - target: {fileID: 1036418958753531808, guid: abb366b2a02eb414a821f352ce7dd53c, type: 3}
+      propertyPath: isFunctional
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5848261516484610647, guid: abb366b2a02eb414a821f352ce7dd53c, type: 3}
       propertyPath: m_Name
       value: FortTower

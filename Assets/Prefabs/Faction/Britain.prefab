@@ -56,13 +56,21 @@ MonoBehaviour:
   gold: 500
   stone: 200
   aliveUnits: []
-  aliveBuildings:
-  - {fileID: 0}
-  - {fileID: 0}
+  aliveBuildings: []
   unitsParent: {fileID: 8304387765607726876}
   buildingsParent: {fileID: 2054491665616900467}
   ghostBuildingParent: {fileID: 3165634909073589227}
   startPosition: {fileID: 1210898048503254559}
+  newResourceRange: 50
+  buildingPrefabs:
+  - {fileID: 2744312896997942383, guid: 4a0cb1fdb06061d4ba4e62b0fe3338ca, type: 3}
+  - {fileID: 3235150170457684451, guid: 2c3cc91c4fca69c48baf0898c8475069, type: 3}
+  - {fileID: 5848261516484610647, guid: e954e3c0505738b4a8286ba8338302a2, type: 3}
+  - {fileID: 7482686128699016536, guid: 1f11a4c1f47b12f458844f7d33c7635c, type: 3}
+  unitPrefabs:
+  - {fileID: 4222008327735160587, guid: 934a0e4a096bc2144a2371abb4340ca4, type: 3}
+  - {fileID: 186328, guid: 7db4fd3f2b302c047b2edfc8171f9d3d, type: 3}
+  - {fileID: 4222008327735160587, guid: 2a05b38b90a28244586d48085c75c9da, type: 3}
 --- !u!114 &2234520608086505954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78,8 +86,11 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 0
-  curUnit: {fileID: 0}
+  curUnits: []
   curBuilding: {fileID: 0}
+  curResource: {fileID: 0}
+  selectionBox: {fileID: 0}
+  curEnemy: {fileID: 0}
 --- !u!114 &7359763835597361642
 MonoBehaviour:
   m_ObjectHideFlags: 0

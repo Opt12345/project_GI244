@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 7348256038693045406}
   - component: {fileID: 7359239497511443179}
   m_Layer: 8
-  m_Name: Headquarter
+  m_Name: Pr_Headquarter
   m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
