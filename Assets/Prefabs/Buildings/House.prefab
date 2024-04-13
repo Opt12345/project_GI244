@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2744312896997942383}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: -0.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -36,7 +36,7 @@ Transform:
   - {fileID: 1457857317181574935}
   - {fileID: 4842443470666260716}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &3137968118933880714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   structureName: House
   structurePic: {fileID: 21300000, guid: c92e7f300d7b5374394d53c5da52f177, type: 3}
-  curHP: 0
+  curHP: 100
   maxHP: 100
   faction: {fileID: 0}
   selectionVisual: {fileID: 6857813451207558498, guid: 0586a7ce74eb8a14784eb0e5202d74ca, type: 3}

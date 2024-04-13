@@ -2352,8 +2352,8 @@ GameObject:
   - component: {fileID: 1919288510584702867}
   - component: {fileID: 3100540187955257315}
   - component: {fileID: 3260019484755918617}
-  - component: {fileID: 7208693851825384952}
   - component: {fileID: 3365372421506909211}
+  - component: {fileID: 7208693851825384952}
   - component: {fileID: 8561681207989972818}
   - component: {fileID: 646553643741256321}
   - component: {fileID: -1890014147495958864}
@@ -2462,6 +2462,18 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &3365372421506909211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4222008327735160587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62d3eb4c3e1f44c43a6d8af789674d99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &7208693851825384952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2479,9 +2491,9 @@ MonoBehaviour:
   unitPic: {fileID: 21300000, guid: efd45648a0a75f649a12b415cc8f93b9, type: 3}
   curHP: 100
   maxHP: 100
-  moveSpeed: 8
+  moveSpeed: 5
   minWpnDamage: 0
-  maxWpnDamage: 12
+  maxWpnDamage: 1
   armor: 1
   visualRange: 20
   weaponRange: 15
@@ -2505,18 +2517,6 @@ MonoBehaviour:
   attackRate: 1
   lastAttackTime: 0
   defendRange: 30
---- !u!114 &3365372421506909211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4222008327735160587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62d3eb4c3e1f44c43a6d8af789674d99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &8561681207989972818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2532,13 +2532,15 @@ MonoBehaviour:
   toBuild: 0
   showGhost: 0
   buildingList:
-  - {fileID: 3235150170457684451, guid: b6399bcb5d23ba241ad4b40a3624e9fb, type: 3}
-  - {fileID: 2744312896997942383, guid: 9cc3b022d439d9f4ca8b3d614af74b34, type: 3}
-  - {fileID: 5848261516484610647, guid: abb366b2a02eb414a821f352ce7dd53c, type: 3}
+  - {fileID: 3235150170457684451, guid: 2c3cc91c4fca69c48baf0898c8475069, type: 3}
+  - {fileID: 2744312896997942383, guid: 4a0cb1fdb06061d4ba4e62b0fe3338ca, type: 3}
+  - {fileID: 5848261516484610647, guid: e954e3c0505738b4a8286ba8338302a2, type: 3}
+  - {fileID: 7482686128699016536, guid: 1f11a4c1f47b12f458844f7d33c7635c, type: 3}
   ghostBuildingList:
-  - {fileID: 3235150170457684451, guid: 5b91364281828b940b94cb9f5603141d, type: 3}
-  - {fileID: 2744312896997942383, guid: 58505ada34acff84c89117845e7f1486, type: 3}
-  - {fileID: 5848261516484610647, guid: 837d6fc3c5e2d2a41b8cafef390e932e, type: 3}
+  - {fileID: 3235150170457684451, guid: 05c0ec7a72195254bb2e9a19e878c2c2, type: 3}
+  - {fileID: 2744312896997942383, guid: e912c2e6bacad7349a5d59672e8a9339, type: 3}
+  - {fileID: 5848261516484610647, guid: 5458f0e43c30fd8428388d4ba5280a21, type: 3}
+  - {fileID: 7482686128699016536, guid: ba69ac1dcb71d2d45892bed835766c1d, type: 3}
   newBuilding: {fileID: 0}
   ghostBuilding: {fileID: 0}
   inProgressBuilding: {fileID: 0}

@@ -90,8 +90,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7482686128699016536}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.016708706, y: 3.8507345, z: -0.44253}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -100,7 +100,7 @@ Transform:
   - {fileID: 1020806709737007630}
   - {fileID: 7336488555262702192}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &6012958918619685128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,9 +115,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   structureName: Barrack
   structurePic: {fileID: 21300000, guid: db30374be5d5e014980d9250039aec2c, type: 3}
-  curHP: 0
+  curHP: 100
   maxHP: 100
-  faction: {fileID: 0}
+  faction: {fileID: 8728378101237457693, guid: 4e6bd0e321a01d740b083911b9915434, type: 3}
   selectionVisual: {fileID: 8199851312241641459}
   spawnPoint: {fileID: 3182398219869339214}
   rallyPoint: {fileID: 1020806709737007630}
@@ -264,7 +264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406580, guid: c64710ec183cb53439b5bd642a6dfb1d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.1738162
+      value: 6.42
       objectReference: {fileID: 0}
     - target: {fileID: 406580, guid: c64710ec183cb53439b5bd642a6dfb1d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -305,16 +305,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 8161750161049282656}
     m_Modifications:
     - target: {fileID: 5417848860772315361, guid: 0586a7ce74eb8a14784eb0e5202d74ca, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5417848860772315361, guid: 0586a7ce74eb8a14784eb0e5202d74ca, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5417848860772315361, guid: 0586a7ce74eb8a14784eb0e5202d74ca, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5417848860772315361, guid: 0586a7ce74eb8a14784eb0e5202d74ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5417848860772315361, guid: 0586a7ce74eb8a14784eb0e5202d74ca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.79
+      value: -0.6
       objectReference: {fileID: 0}
     - target: {fileID: 5417848860772315361, guid: 0586a7ce74eb8a14784eb0e5202d74ca, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5417848860772315361, guid: 0586a7ce74eb8a14784eb0e5202d74ca, type: 3}
       propertyPath: m_LocalRotation.w
@@ -354,7 +366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6857813451207558498, guid: 0586a7ce74eb8a14784eb0e5202d74ca, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -397,7 +409,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 467558, guid: 4ccb1c3bf907ef74b92d63c996c095f6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.2161837
+      value: -0.97
       objectReference: {fileID: 0}
     - target: {fileID: 467558, guid: 4ccb1c3bf907ef74b92d63c996c095f6, type: 3}
       propertyPath: m_LocalPosition.z
