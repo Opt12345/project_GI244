@@ -12,8 +12,7 @@ public class AICreateHouse : AICreateHQ
         buildingPrefab = support.Faction.BuildingPrefabs[1];
         buildingGhostPrefab = support.Faction.GhostBuildingPrefabs[1];
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         

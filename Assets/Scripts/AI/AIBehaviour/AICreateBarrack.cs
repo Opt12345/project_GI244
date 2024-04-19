@@ -9,8 +9,8 @@ public class AICreateBarrack : AICreateHQ
     {
         support = gameObject.GetComponent<AISupport>();
 
-        buildingPrefab = support.Faction.BuildingPrefabs[3];
-        buildingGhostPrefab = support.Faction.GhostBuildingPrefabs[3];
+        buildingPrefab = support.Faction.BuildingPrefabs[2];
+        buildingGhostPrefab = support.Faction.GhostBuildingPrefabs[2];
     }
     
     void Update()
