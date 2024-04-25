@@ -7551,6 +7551,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pirates
       objectReference: {fileID: 0}
+    - target: {fileID: 7059610046084156250, guid: 0b9fe7a80590b7f49b3e1b0322490e19, type: 3}
+      propertyPath: curHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7965,6 +7969,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Britain
       objectReference: {fileID: 0}
+    - target: {fileID: 8728378101237457693, guid: 4e6bd0e321a01d740b083911b9915434, type: 3}
+      propertyPath: buildingPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 7482686128699016536, guid: 1f11a4c1f47b12f458844f7d33c7635c, type: 3}
+    - target: {fileID: 8728378101237457693, guid: 4e6bd0e321a01d740b083911b9915434, type: 3}
+      propertyPath: buildingPrefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 5848261516484610647, guid: e954e3c0505738b4a8286ba8338302a2, type: 3}
+    - target: {fileID: 8728378101237457693, guid: 4e6bd0e321a01d740b083911b9915434, type: 3}
+      propertyPath: ghostBuildingPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 7482686128699016536, guid: ba69ac1dcb71d2d45892bed835766c1d, type: 3}
+    - target: {fileID: 8728378101237457693, guid: 4e6bd0e321a01d740b083911b9915434, type: 3}
+      propertyPath: ghostBuildingPrefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 5848261516484610647, guid: 5458f0e43c30fd8428388d4ba5280a21, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

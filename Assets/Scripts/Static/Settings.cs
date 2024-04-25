@@ -15,10 +15,10 @@ public static class Settings
         {
             case 0:
                 mySide = Nation.Britain;
-                EnemySide = Nation.France;
+                EnemySide = Nation.Pirates;
                 break;
             case 1:
-                mySide = Nation.France;
+                mySide = Nation.Pirates;
                 EnemySide = Nation.Britain;
                 break;
         }
