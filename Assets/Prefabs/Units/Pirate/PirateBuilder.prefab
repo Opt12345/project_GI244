@@ -2357,8 +2357,9 @@ GameObject:
   - component: {fileID: 8561681207989972818}
   - component: {fileID: 646553643741256321}
   - component: {fileID: -1890014147495958864}
+  - component: {fileID: -3453022815914699754}
   m_Layer: 6
-  m_Name: Builder
+  m_Name: PirateBuilder
   m_TagString: Unit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2486,7 +2487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5b4b701ab9558f42a9e1faaf7dbd719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 0
+  id: 5
   unitName: Bob
   unitPic: {fileID: 21300000, guid: efd45648a0a75f649a12b415cc8f93b9, type: 3}
   curHP: 100
@@ -2574,6 +2575,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a547d44ac3af274295639a0a407b953, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-3453022815914699754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4222008327735160587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 534d1280c622b07459a38030e7f34681, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewPort: {fileID: 0}
+  cameraRig: {fileID: 0}
+  blipPrefab: {fileID: 0}
+  blipParent: {fileID: 0}
 --- !u!1 &4264410463796065429
 GameObject:
   m_ObjectHideFlags: 0

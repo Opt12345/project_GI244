@@ -2355,6 +2355,7 @@ GameObject:
   - component: {fileID: 7208693851825384952}
   - component: {fileID: 3365372421506909211}
   - component: {fileID: 2697542458846816143}
+  - component: {fileID: 2595440819243503444}
   m_Layer: 6
   m_Name: Soldier (Red)
   m_TagString: Unit
@@ -2477,9 +2478,9 @@ MonoBehaviour:
   unitPic: {fileID: 21300000, guid: d43d4d63a14846b4592cad5531f100c2, type: 3}
   curHP: 150
   maxHP: 150
-  moveSpeed: 5
-  minWpnDamage: 6
-  maxWpnDamage: 8
+  moveSpeed: 3
+  minWpnDamage: 5
+  maxWpnDamage: 15
   armor: 2
   visualRange: 15
   weaponRange: 8
@@ -2525,6 +2526,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a547d44ac3af274295639a0a407b953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2595440819243503444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4222008327735160587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8131bd918cf1bf846becdfd5034ded22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4264410463796065429

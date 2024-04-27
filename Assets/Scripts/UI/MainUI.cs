@@ -16,22 +16,15 @@ public class MainUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI stoneText;
     [SerializeField] private RectTransform selectionBox;
     public RectTransform SelectionBox { get { return selectionBox; } }
-    
     public static MainUI instance;
-    
-    void Start()
-    {
-        
-    }
-    
-    void Update()
-    {
-        
-    }
 
+    private Canvas canvas;
+    public Canvas Canvas { get { return canvas; } }
+    
     private void Awake()
     {
         instance = this;
+        canvas = GetComponent<Canvas>();
     }
     
     public void UpdateAllResource(Faction faction)
@@ -41,6 +34,17 @@ public class MainUI : MonoBehaviour
         woodText.text = faction.Wood.ToString();
         goldText.text = faction.Gold.ToString();
         stoneText.text = faction.Stone.ToString();
+    }
+    
+    public Vector3 ScalePosition(Vector3 pos)
+    {
+        Vector3 newPos;
+
+        newPos = new Vector3(pos.x * canvas.transform.localScale.x
+            , pos.y * canvas.transform.localScale.y
+            , pos.z * canvas.transform.localScale.z);
+
+        return newPos;
     }
     
 }
