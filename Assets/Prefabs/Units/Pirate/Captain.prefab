@@ -149,8 +149,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3287462304537897352, guid: 7db4fd3f2b302c047b2edfc8171f9d3d, type: 3}
+      propertyPath: attackRate
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3287462304537897352, guid: 7db4fd3f2b302c047b2edfc8171f9d3d, type: 3}
       propertyPath: visualRange
-      value: 16
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3287462304537897352, guid: 7db4fd3f2b302c047b2edfc8171f9d3d, type: 3}
       propertyPath: weaponRange

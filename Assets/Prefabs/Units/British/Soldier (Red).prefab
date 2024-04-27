@@ -2482,7 +2482,7 @@ MonoBehaviour:
   minWpnDamage: 5
   maxWpnDamage: 15
   armor: 2
-  visualRange: 15
+  visualRange: 60
   weaponRange: 8
   state: 0
   faction: {fileID: 0}
